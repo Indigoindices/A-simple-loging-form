@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(172, 82, 184, 0.534);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#ac52b8, #fff);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: #fff;
+  width: 50rem;
+  margin: 5rem auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+h2 {
+  align-self: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.info {
+  border-radius: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0.8rem 0;
+  border: 1px solid #ccc;
+  padding: 1.2rem 2rem;
+}
+
+.fields {
+  border-radius: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0.8rem 0;
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rmandfp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+}
+
+div a {
+  text-decoration: none;
+  color: #1c47d6;
+}
+
+button {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 400;
+  border: none;
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: #134586;
+  color: #fff;
+  padding: 1.2rem 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #546f92;
+  transform: translateY(-0.1rem);
+  box-shadow: 6px 6px 13px #a7adbd, -6px -6px 13px #fbffff;
+}
+
+p {
+  font-size: 2rem;
+}
+
+hr {
+  width: 40rem;
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
+}
+
+.username,
+.password {
+  width: 100%;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  height: 3rem;
+  width: 3rem;
+  color: #ac52b8;
+}
+
+.connect {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.media-logo {
+  text-decoration: none;
+  color: #ac52b8;
+  width: 4rem;
+  height: 4rem;
+}
+
+.media-logo:hover {
+  color: #1c47d6;
+}
